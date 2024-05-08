@@ -7,25 +7,112 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
-  <body>
+  <body class="font-['Rubik']">
+    
+    <!-- section header / bright -->
+    <header class="w-screen sm:h-[1000px] h-[1400px]">
+      <div  class="w-[375px] h-[844px] sm:w-[1440px] sm:h-[956px] bg-cover bg-center"
+            style="background-image: url('img-bright/4.png')">
+           
+        <div>
+          <div>
+            <nav
+              class="border-b-2 p-3 w-screen flex flex-row justify-between items-center sm:w-[1440] sm:h-[69] sm:flex sm:flex-row sm:justify-between"
+          >
+              <!--branding-and-tab-bar-->
+              <div
+              class="w-2/4 h-3/4 sm:w-2/4 sm:h-4/5 sm:flex sm:items-center sm:ml-2"
+            >
+              <!--braning-->
+              <a href="index.html"
+                ><img class="w-[80%]" src="img-bright\3.png" />
+              </a>
+              </div>
+              <div class="flex text-5xl pr-3 text-blue-950 sm:hidden sm:block">
+                <p>☰</p>
+              </div>
+
+            <div
+              class="hidden sm:w-[100%] sm:flex sm:justify-center sm: sm:text-blue-900 text-xl sm:mr-20 sm:mt-5"
+            >
+              <!--tab-bar-->
+              <div class="w-[100%]">
+                <a class="mr-[7%] ml-[5%]" href="index.html">Home</a>
+                <a class="mr-[7%]" href="">Category</a>
+                <a class="mr-[7%]" href="">Service</a>
+                <a class="mr-[7%]" href="">Blog</a>
+                <a class="mr-[6%]" href="">Contract</a>
+                <button class="bg-yellow-300 w-40 h-14 rounded-lg">
+                  <a href="">Create Account</a>
+                </button>
+              </div>
+            </div>
+          </nav>
+          <div
+            class="w-screen h-screen flex flex-col sm:w-screen sm:h-screen sm:w-auto sm:flex sm:flex-row"
+          >
+            <div>
+              <div class="w-3/4 ml-[10%] mt-[10%]">
+                <h2 class="text-blue-300 font-bold text-xl mb-5">
+                  CREATIVE AGENCY __
+                </h2>
+                <div>
+                  <h1 class="text-blue-900 font-medium text-5xl flex">
+                    We are here to give the best service
+                  </h1>
+                </div>
+                <p
+                  class="mt-10 mb-10 sm:block sm:mt-10 sm:mb-10 sm:text-balance sm:text-gray-500 sm:text-start"
+                >
+                  It's crafted with the last trend of design & coded with all
+                  modern approaches. It's arobust & muti-dimensinal useble
+                  template
+                </p>
+                <div
+                  class="flex justify-start flex-row mb-16 sm:flex sm:flex-row sm:justify-start"
+                >
+                  <button
+                    class="bg-blue-500 w-[50%] h-14 rounded-lg font-bold text-white mr-10 sm:w-[22%]"
+                  >
+                    <a href=""> Get Started</a>
+                  </button>
+                  <button
+                    class="flex flex-row items-center"
+                    ><img
+                      class="w-8 h-8 mr-3 text-blue-500"
+                      src="img-bright\1.png"
+                      alt="Your image description"
+                    />
+                    <span class="text-blue-800 font-bold">Watch Video</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center items-center sm:w-1/2 sm:flex">
+              <img class="h-[100%] w-[100%]" src="img-bright\2.png" />
+            </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </header>
     <!-- section service / pong -->
-    <section class="relative w-screen h-[626px] font-['Rubik']">
+    <section class=" w-screen flex justify-center items-center">
+      <div class="relative">
       <img class="absolute left-[1340px] top-[210px]" src="dots2.png">
       <img class="absolute left-[1378px] top-[272px]" src="dots.png">
       <div class="flex flex-col items-start gap-4 sm:gap-14 max-w-[1414px] sm:h-[447px] sm:m-12 ">
          <div class="relative ">
           <h1 class="text-[36px] w-[264px] h-[86px] sm:text-[48px] sm:w-[352px] ml-14 sm:mt-0 mt-8">Lets Check Our Services</h1>
           <div
-class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]:hidden duration-200 max-[640px]:duration-200 max-[640px]:w-[36px] h-[6px] rounded-md bg-blue-500"
-></div>
+        class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]:hidden duration-200 max-[640px]:duration-200 max-[640px]:w-[36px] h-[6px] rounded-md bg-blue-500"
+        ></div>
          </div>
         <div class="flex flex-col sm:flex-row mr-28 gap-10 sm:gap-0 mt-8 mx-6 sm:mx-0" >
          <div class=" ml-7  p-8 w-[300px] hover:bg-red-200 hover:rounded-xl " >
@@ -54,21 +141,22 @@ class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]
          </div>
         </div>
       </div>
+      </div>
     </section>
   
      <!-- section work / natsu -->
-    <div class="w-screen">
+    <div class="w-screen flex justify-center items-center">
       <div
-        class="font-['rubik'] max-w-[1440px] max-h-[971px] relative px-7 pt-52 lg:flex lg:flex-row-reverse"
+        class="max-w-[1440px] max-h-[971px] relative px-7 pt-52 lg:flex lg:flex-row-reverse"
       >
         <img
-          class="h-[95vh] absolute inset-0 -z-10 lg:h-[75vh] lg:w-[90vw] left-0 lg:left-auto lg:top-16 xl:h-[95vh] xl:top-36 xl:w-[88vw]"
+          class="h-[95vh] absolute inset-0 -z-10 sm:h-[75vh] sm:w-[90vw] left-0 lg:left-[170px] sm:top-16 xl:h-[95vh] xl:top-36 xl:w-[88vw]"
           src="./img section3/bg.png"
           alt="background"
         />
         <!-- box-content -->
         <div
-          class="message lg:w-[45vw] lg:relative lg:top-40 xl:relative xl:top-[420px] xl:right-16 xl:w-[42vw] xl:h-[50vh]"
+          class="message sm:w-[45vw] sm:relative sm:top-40 xl:relative xl:top-[420px] xl:right-16 xl:w-[42vw] xl:h-[50vh]"
         >
           <div>
             <h1 class="text-[#0B0757] text-4xl font-semibold">
@@ -122,7 +210,7 @@ class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]
 
 
     <!-- section Price Plan / Spy -->
-    <section class="w-screen h-[1000px] font-['Rubik']">
+    <section class="w-screen h-[1000px] ">
       <div class="w-full h-full flex flex-col ">
         <div class="h-1/4 flex flex-col justify-center items-center font-bold text-3xl text-[#0B0757]">
           <p class="text-[#8480AE] sm:text-[24px] text-[20px] font-normal">Price Plan</p>
@@ -171,7 +259,7 @@ class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]
     </section>
     
     <!-- section review / Dear -->
-    <section class="font-['rubik'] w-screen flex flex-row justify-center py-10">
+    <section class="w-screen flex flex-row justify-center py-10">
       <div
         class="my-10 max-w-[1110px] w-full flex flex-col justify-center sm:flex-row sm:justify-start sm:items-center sm:gap-8"
       >
@@ -213,7 +301,7 @@ class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]
     </section>
     <!-- section signup / Dear -->
     <section
-      class="font-['rubik'] w-screen flex flex-row justify-center mb-10 sm:mb-20"
+      class="w-screen flex flex-row justify-center mb-10 sm:mb-20"
     >
       <div
         class="max-w-[1110px] h-[325px] sm:h-[349px] w-full bg-[#F4F7FC] flex flex-row justify-center"
@@ -245,7 +333,7 @@ class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]
       </div>
     </section>
     <!-- section footer / Dear -->
-    <footer class="font-['rubik'] w-screen flex justify-center">
+    <footer class="w-screen flex justify-center">
       <div class="w-[1121px] flex flex-col justify-center justify-items-center">
         <div
           class="sm:mb-10 flex flex-col sm:flex-row sm:justify-start sm:gap-24"
@@ -356,112 +444,6 @@ class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]
         </p>
       </div>
     </footer>
-
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body class="font-['rubik']">
-    <header class="w-screen">
-      <div class="w-[375px] h-[844] sm:w-[1440px] sm:h-[956px]">
-        <div
-          class="bg-cover bg-center"
-          style="background-image: url('img-bright/4.png')"
-        >
-          <nav
-            class="border-b-2 p-3 w-screen flex flex-row justify-between items-center sm:w-[1440] sm:h-[69] sm:flex sm:flex-row sm:justify-between"
-          >
-            <!--branding-and-tab-bar-->
-            <div
-              class="w-2/4 h-3/4 sm:w-2/4 sm:h-4/5 sm:flex sm:items-center sm:ml-2"
-            >
-              <!--braning-->
-              <a href="index.html"
-                ><img class="w-[80%]" src="img-bright\3.png" />
-              </a>
-            </div>
-            <div class="flex text-5xl pr-3 text-blue-950 sm:hidden sm:block">
-              <p>☰</p>
-            </div>
-
-            <div
-              class="hidden sm:w-[100%] sm:flex sm:justify-center sm: sm:text-blue-900 text-xl sm:mr-20 sm:mt-5"
-            >
-              <!--tab-bar-->
-              <div class="w-[100%]">
-                <a class="mr-[7%] ml-[5%]" href="index.html">Home</a>
-                <a class="mr-[7%]" href="">Category</a>
-                <a class="mr-[7%]" href="">Service</a>
-                <a class="mr-[7%]" href="">Blog</a>
-                <a class="mr-[6%]" href="">Contract</a>
-                <button class="bg-yellow-300 w-40 h-14 rounded-lg">
-                  <a href="">Create Account</a>
-                </button>
-              </div>
-            </div>
-          </nav>
-          <div
-            class="w-screen h-screen w-auto flex flex-col sm:w-screen sm:h-screen sm:w-auto sm:flex sm:flex-row"
-          >
-            <div>
-              <div class="w-3/4 ml-[10%] mt-[10%]">
-                <h2 class="text-blue-300 font-bold text-xl mb-5">
-                  CREATIVE AGENCY __
-                </h2>
-                <div>
-                  <h1 class="text-blue-900 font-medium text-5xl flex">
-                    We are here to give the best service
-                  </h1>
-                </div>
-                <p
-                  class="mt-10 mb-10 sm:block sm:mt-10 sm:mb-10 sm:text-balance sm:text-gray-500 sm:text-start"
-                >
-                  It's crafted with the last trend of design & coded with all
-                  modern approaches. It's arobust & muti-dimensinal useble
-                  template
-                </p>
-                <div
-                  class="flex justify-start flex-row mb-16 sm:flex sm:flex-row sm:justify-start"
-                >
-                  <button
-                    class="bg-blue-500 w-[50%] h-14 rounded-lg font-bold text-white mr-10 sm:w-[22%]"
-                  >
-                    <a href=""> Get Started</a>
-                  </button>
-                  <button
-                    class="flex flex-row items-center"
-                    <img
-                      class="w-8 h-8 mr-3 text-blue-500"
-                      src="img-bright\1.png"
-                      alt="Your image description"
-                    />
-                    <span class="text-blue-800 font-bold">Watch Video</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="flex justify-center items-center sm:w-1/2 sm:flex">
-              <img class="h-[100%] w-[100%]" src="img-bright\2.png" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+  
   </body>
 </html>
