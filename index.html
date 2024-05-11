@@ -7,144 +7,174 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-  <body class="font-['Rubik']">
-    
+  <body class="font-['Rubik'] m-0 p-0">
     <!-- section header / bright -->
-    <header class="w-screen sm:h-[1000px] h-[1400px]">
-      <div  class="w-[375px] h-[844px] sm:w-[1440px] sm:h-[956px] bg-cover bg-center"
-            style="background-image: url('img-bright/4.png')">
-           
+    <header class="w-screen sm:h-screen h-screen ">
+
+      <!-- detail -->
         <div>
           <div>
             <nav
-              class="border-b-2 p-3 w-screen flex flex-row justify-between items-center sm:w-[1440] sm:h-[69] sm:flex sm:flex-row sm:justify-between"
-          >
+              class="border-b-2 p-3 w-screen flex flex-row justify-between items-center sm:w-screen sm:h-1/4- sm:flex sm:flex-row sm:justify-between"
+            >
               <!--branding-and-tab-bar-->
               <div
-              class="w-2/4 h-3/4 sm:w-2/4 sm:h-4/5 sm:flex sm:items-center sm:ml-2"
-            >
-              <!--braning-->
-              <a href="index.html"
-                ><img class="w-[80%]" src="img-bright\3.png" />
-              </a>
+                class="w-2/4 h-3/4 sm:w-2/4 sm:h-4/5 sm:flex sm:items-center sm:ml-[4%]"
+              >
+                <!--braning-->
+                <a href="index.html"
+                  ><img class="w-[80%] ml-5 sm:ml-20"  src="img-bright\3.png" />
+                </a>
               </div>
               <div class="flex text-5xl pr-3 text-blue-950 sm:hidden sm:block">
                 <p>☰</p>
               </div>
 
+              <div
+                class="hidden sm:w-[100%] sm:flex sm:justify-center sm:text-blue-900 sm:ml-64 "
+              >
+                <!--tab-bar-->
+                <div class="w-[100%]">
+                  <a class="mr-[7%] ml-[5%]" href="index.html">Home</a>
+                  <a class="mr-[7%]" href="">Category</a>
+                  <a class="mr-[7%]" href="">Service</a>
+                  <a class="mr-[7%]" href="">Blog</a>
+                  <a class="mr-[6%]" href="">Contract</a>
+                  <button class="bg-yellow-300 w-40 h-14 rounded-lg">
+                    <a href="">Create Account</a>
+                  </button>
+                </div>
+              </div>
+            </nav>
+            <!-- detail -->
             <div
-              class="hidden sm:w-[100%] sm:flex sm:justify-center sm: sm:text-blue-900 text-xl sm:mr-20 sm:mt-5"
+              class="w-screen h-screen flex flex-col sm:w-screen sm:h-screen sm:flex sm:flex-row "
             >
-              <!--tab-bar-->
-              <div class="w-[100%]">
-                <a class="mr-[7%] ml-[5%]" href="index.html">Home</a>
-                <a class="mr-[7%]" href="">Category</a>
-                <a class="mr-[7%]" href="">Service</a>
-                <a class="mr-[7%]" href="">Blog</a>
-                <a class="mr-[6%]" href="">Contract</a>
-                <button class="bg-yellow-300 w-40 h-14 rounded-lg">
-                  <a href="">Create Account</a>
-                </button>
-              </div>
-            </div>
-          </nav>
-          <div
-            class="w-screen h-screen flex flex-col sm:w-screen sm:h-screen sm:w-auto sm:flex sm:flex-row"
-          >
-            <div>
-              <div class="w-3/4 ml-[10%] mt-[10%]">
-                <h2 class="text-blue-300 font-bold text-xl mb-5">
-                  CREATIVE AGENCY __
-                </h2>
-                <div>
-                  <h1 class="text-blue-900 font-medium text-5xl flex">
-                    We are here to give the best service
-                  </h1>
-                </div>
-                <p
-                  class="mt-10 mb-10 sm:block sm:mt-10 sm:mb-10 sm:text-balance sm:text-gray-500 sm:text-start"
-                >
-                  It's crafted with the last trend of design & coded with all
-                  modern approaches. It's arobust & muti-dimensinal useble
-                  template
-                </p>
-                <div
-                  class="flex justify-start flex-row mb-16 sm:flex sm:flex-row sm:justify-start"
-                >
-                  <button
-                    class="bg-blue-500 w-[50%] h-14 rounded-lg font-bold text-white mr-10 sm:w-[22%]"
+              <div>
+                <div class="w-3/4 ml-[10%] mt-[10%] sm:ml-[20%]">
+                  <h2 class="text-blue-300 font-bold text-xl mb-5 flex items-end">
+                    CREATIVE AGENCY 
+                    <div class="w-9 sm:w-10 h-1 bg-blue-300 flex "></div>
+                  </h2>
+                  <div>
+                    <h1 class="text-blue-900 font-medium text-5xl flex">
+                      We are here to give the best service
+                    </h1>
+                  </div>
+                  <p
+                    class="max-h-fit max-w-full mt-10 mb-10 sm:block sm:mt-10 sm:mb-10 sm:text-balance sm:text-gray-500 sm:text-start"
                   >
-                    <a href=""> Get Started</a>
-                  </button>
-                  <button
-                    class="flex flex-row items-center"
-                    ><img
-                      class="w-8 h-8 mr-3 text-blue-500"
-                      src="img-bright\1.png"
-                      alt="Your image description"
-                    />
-                    <span class="text-blue-800 font-bold">Watch Video</span>
-                  </button>
+                    It's crafted with the last trend of design & coded with all
+                    modern approaches. It's arobust & muti-dimensinal useble
+                    template
+                  </p>
+                  <div
+                    class="flex justify-start flex-row mb-8 sm:mb-0 sm:flex sm:flex-row sm:justify-start"
+                  >
+                    <button
+                      class="bg-blue-500 w-[50%] h-14 rounded-lg font-bold text-white mr-10 sm:w-[22%]"
+                    >
+                      <a href=""> Get Started</a>
+                    </button>
+                    <button class="flex flex-row items-center">
+                      <img
+                        class="w-8 h-8 mr-3 text-blue-500"
+                        src="img-bright\1.png"
+                        alt="watch Video"
+                      />
+                      <span class="text-blue-800 font-bold max-h-30 max-w-30">Watch Video</span>
+                    </button>
+                  </div>
                 </div>
               </div>
+              <div class="flex justify-center items-center sm:w-1/2 sm:flex">
+                <img class="h-4/5 w-4/5" src="img-bright\2.png" />
+              </div>
             </div>
-            <div class="flex justify-center items-center sm:w-1/2 sm:flex">
-              <img class="h-[100%] w-[100%]" src="img-bright\2.png" />
             </div>
+          </div>
+          
         </div>
-      </div>
-     </div>
-    </div>
-  </header>
+    </header>
     <!-- section service / pong -->
-    <section class=" w-screen flex justify-center items-center">
+    <section class="w-screen flex justify-center items-center mt-80 sm:mt-0">
       <div class="relative">
-      <img class="absolute left-[1340px] top-[210px]" src="dots2.png">
-      <img class="absolute left-[1378px] top-[272px]" src="dots.png">
-      <div class="flex flex-col items-start gap-4 sm:gap-14 max-w-[1414px] sm:h-[447px] sm:m-12 ">
-         <div class="relative ">
-          <h1 class="text-[36px] w-[264px] h-[86px] sm:text-[48px] sm:w-[352px] ml-14 sm:mt-0 mt-8">Lets Check Our Services</h1>
+        <img class="absolute left-[1340px] top-[210px]" src="dots2.png" />
+        <img class="absolute left-[1378px] top-[272px]" src="dots.png" />
+        <div
+          class="flex flex-col items-start gap-4 sm:gap-14 max-w-[1414px] sm:h-[447px] sm:m-12"
+        >
+          <div class="relative">
+            <h1
+              class="text-[36px] w-[264px] h-[86px] sm:text-[48px] sm:w-[352px] ml-14 sm:mt-0 mt-8"
+            >
+              Lets Check Our Services
+            </h1>
+            <div
+              class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]:hidden duration-200 max-[640px]:duration-200 max-[640px]:w-[36px] h-[6px] rounded-md bg-blue-500"
+            ></div>
+          </div>
           <div
-        class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]:hidden duration-200 max-[640px]:duration-200 max-[640px]:w-[36px] h-[6px] rounded-md bg-blue-500"
-        ></div>
-         </div>
-        <div class="flex flex-col sm:flex-row mr-28 gap-10 sm:gap-0 mt-8 mx-6 sm:mx-0" >
-         <div class=" ml-7  p-8 w-[300px] hover:bg-red-200 hover:rounded-xl " >
-          <img class="" src="Group 34.png">
-          <h1 class="text-[#0B0757] text-[20px] font-medium py-3">Increase conversion</h1>
-          <h3 class="text-[#8480AE] text-[16px] ">It's crafted with the latest of design & coded with all trendy &
-            modern approaches.</h3>
-         </div>
-         <div class=" ml-7 p-8 w-[300px]  hover:bg-blue-200 hover:rounded-xl ">
-          <img class="" src="Group 36.png">
-          <h1 class="text-[#0B0757] text-[20px] font-medium py-3">Discussion for idea</h1>
-          <h3 class="text-[#8480AE] text-[16px]">It's crafted with the latest of design & coded with all trendy &
-            modern approaches.</h3>
-         </div>
-         <div class=" ml-7 p-8 w-[300px]  hover:bg-green-200 hover:rounded-xl">
-          <img class="" src="Group 37.png">
-          <h1 class="text-[#0B0757] text-[20px] font-medium py-3">Product analytics</h1>
-          <h3 class="text-[#8480AE] text-[16px]">It's crafted with the latest of design & coded with all trendy &
-            modern approaches.</h3>
-         </div>
-         <div class=" ml-7 p-8 w-[300px]  hover:bg-purple-200 hover:rounded-xl">
-          <img class="" src="Group 38.png">
-          <h1 class="text-[#0B0757] text-[20px] font-medium py-3">Perfect testing</h1>
-          <h3 class="text-[#8480AE] text-[16px]">It's crafted with the latest of design & coded with all trendy &
-            modern approaches.</h3>
-         </div>
+            class="flex flex-col sm:flex-row mr-28 gap-10 sm:gap-0 mt-8 mx-6 sm:mx-0"
+          >
+            <div class="ml-7 p-8 w-[300px] hover:bg-red-200 hover:rounded-xl">
+              <img class="" src="Group 34.png" />
+              <h1 class="text-[#0B0757] text-[20px] font-medium py-3">
+                Increase conversion
+              </h1>
+              <h3 class="text-[#8480AE] text-[16px]">
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </h3>
+            </div>
+            <div class="ml-7 p-8 w-[300px] hover:bg-blue-200 hover:rounded-xl">
+              <img class="" src="Group 36.png" />
+              <h1 class="text-[#0B0757] text-[20px] font-medium py-3">
+                Discussion for idea
+              </h1>
+              <h3 class="text-[#8480AE] text-[16px]">
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </h3>
+            </div>
+            <div class="ml-7 p-8 w-[300px] hover:bg-green-200 hover:rounded-xl">
+              <img class="" src="Group 37.png" />
+              <h1 class="text-[#0B0757] text-[20px] font-medium py-3">
+                Product analytics
+              </h1>
+              <h3 class="text-[#8480AE] text-[16px]">
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </h3>
+            </div>
+            <div
+              class="ml-7 p-8 w-[300px] hover:bg-purple-200 hover:rounded-xl"
+            >
+              <img class="" src="Group 38.png" />
+              <h1 class="text-[#0B0757] text-[20px] font-medium py-3">
+                Perfect testing
+              </h1>
+              <h3 class="text-[#8480AE] text-[16px]">
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </h3>
+            </div>
+          </div>
         </div>
-      </div>
       </div>
     </section>
-  
-     <!-- section work / natsu -->
+
+    <!-- section work / natsu -->
     <div class="w-screen flex justify-center items-center">
       <div
         class="max-w-[1440px] max-h-[971px] relative px-7 pt-52 lg:flex lg:flex-row-reverse"
@@ -208,56 +238,212 @@
       </div>
     </div>
 
-
     <!-- section Price Plan / Spy -->
-    <section class="w-screen h-[1000px] ">
-      <div class="w-full h-full flex flex-col ">
-        <div class="h-1/4 flex flex-col justify-center items-center font-bold text-3xl text-[#0B0757]">
-          <p class="text-[#8480AE] sm:text-[24px] text-[20px] font-normal">Price Plan</p>
-          <h1 class="text-center sm:text[48px] text-[36px]">No Extra<br class="sm:hidden block"> Charges!Choose </h1>
+    <section class="w-screen h-[1000px]">
+      <div class="w-full h-full flex flex-col">
+        <div
+          class="h-1/4 flex flex-col justify-center items-center font-bold text-3xl text-[#0B0757]"
+        >
+          <p class="text-[#8480AE] sm:text-[24px] text-[20px] font-normal">
+            Price Plan
+          </p>
+          <h1 class="text-center sm:text[48px] text-[36px]">
+            No Extra<br class="sm:hidden block" />
+            Charges!Choose
+          </h1>
           <h1 class="sm:text[48px] text-[36px]">Your Plan.</h1>
         </div>
-        <div class="flex flex-col sm:items-center sm-pl-[0px] items-start pl-[20px] border-[#ECEBF2] text-[#8480AE]">
+        <div
+          class="flex flex-col sm:items-center sm-pl-[0px] items-start pl-[20px] border-[#ECEBF2] text-[#8480AE]"
+        >
           <ul class="flex border-[2px]">
             <li class="sm:w-[300px] sm:h-[150px] w-[150px] h-[150px]"></li>
-            <li class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#FDC46E]  border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]">$2000<br><p class="text-[#8480AE] sm:text-[20px] text-[16px]">Regular</p></li>
-            <li class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#00B894]  border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]">$3000<br><p class="text-[#8480AE] sm:text-[20px] text-[16px]">Premium</p></li>
-            <li class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#1374F6]  border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]">$5000<br><p class="text-[#8480AE] sm:text-[20px] text-[16px]">Corporate</p></li>
+            <li
+              class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#FDC46E] border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]"
+            >
+              $2000<br />
+              <p class="text-[#8480AE] sm:text-[20px] text-[16px]">Regular</p>
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#00B894] border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]"
+            >
+              $3000<br />
+              <p class="text-[#8480AE] sm:text-[20px] text-[16px]">Premium</p>
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#1374F6] border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]"
+            >
+              $5000<br />
+              <p class="text-[#8480AE] sm:text-[20px] text-[16px]">Corporate</p>
+            </li>
           </ul>
           <ul class="flex border-x-[2px] border-b-[2px]">
-            <li class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start  items-center sm:text-[20px] text-[14px] pl-[25px]">Full Access</li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"></li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"></li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"></li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start items-center sm:text-[20px] text-[14px] pl-[25px]"
+            >
+              Full Access
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
           </ul>
           <ul class="flex border-x-[2px] border-b-[2px]">
-            <li class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start  items-center sm:text-[20px] text-[14px] pl-[25px]">Mutiple User</li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"></li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"></li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"></li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start items-center sm:text-[20px] text-[14px] pl-[25px]"
+            >
+              Mutiple User
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
           </ul>
           <ul class="flex border-x-[2px] border-b-[2px]">
-            <li class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start  items-center sm:text-[20px] text-[14px] pl-[25px]">Refund</li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"></li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"></li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px]" src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"></li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start items-center sm:text-[20px] text-[14px] pl-[25px]"
+            >
+              Refund
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
           </ul>
           <ul class="flex border-x-[2px] border-b-[2px]">
-            <li class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start  items-center sm:text-[20px] text-[14px] pl-[25px]">24/7 Support</li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px] " src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"></li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px] " src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"></li>
-            <li class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px] "><img class="w-[15px] " src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"></li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start items-center sm:text-[20px] text-[14px] pl-[25px]"
+            >
+              24/7 Support
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
           </ul>
           <ul class="flex justify-center items-center sm:border-r-[2px]">
-            <li class="sm:w-[300px] sm:h-[120px] w-[150px] h-[120px] "></li>
-            <li class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"><button class="bg-[#FDC46E] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]">Choose Plan</button><br><p class="sm:text-[#8480AE] text-[14px] sm:block hidden">Get your 30 days free trial</p></li>
-            <li class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"><button class="bg-[#00B894] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]">Choose Plan</button><br><p class="sm:text-[#8480AE] text-[14px] sm:block hidden">Get your 30 days free trial</p></li>
-            <li class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"><button class="bg-[#1374F6] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]">Choose Plan</button><br><p class="sm:text-[#8480AE] text-[14px] sm:block hidden">Get your 30 days free trial</p></li>
+            <li class="sm:w-[300px] sm:h-[120px] w-[150px] h-[120px]"></li>
+            <li
+              class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"
+            >
+              <button
+                class="bg-[#FDC46E] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]"
+              >
+                Choose Plan</button
+              ><br />
+              <p class="sm:text-[#8480AE] text-[14px] sm:block hidden">
+                Get your 30 days free trial
+              </p>
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"
+            >
+              <button
+                class="bg-[#00B894] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]"
+              >
+                Choose Plan</button
+              ><br />
+              <p class="sm:text-[#8480AE] text-[14px] sm:block hidden">
+                Get your 30 days free trial
+              </p>
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"
+            >
+              <button
+                class="bg-[#1374F6] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]"
+              >
+                Choose Plan</button
+              ><br />
+              <p class="sm:text-[#8480AE] text-[14px] sm:block hidden">
+                Get your 30 days free trial
+              </p>
+            </li>
           </ul>
         </div>
-      </div> 
+      </div>
     </section>
-    
+
     <!-- section review / Dear -->
     <section class="w-screen flex flex-row justify-center py-10">
       <div
@@ -300,9 +486,7 @@
       </div>
     </section>
     <!-- section signup / Dear -->
-    <section
-      class="w-screen flex flex-row justify-center mb-10 sm:mb-20"
-    >
+    <section class="w-screen flex flex-row justify-center mb-10 sm:mb-20">
       <div
         class="max-w-[1110px] h-[325px] sm:h-[349px] w-full bg-[#F4F7FC] flex flex-row justify-center"
       >
@@ -444,6 +628,5 @@
         </p>
       </div>
     </footer>
-  
   </body>
 </html>
