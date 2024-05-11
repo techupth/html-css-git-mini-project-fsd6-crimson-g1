@@ -4,9 +4,629 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-  <body>
-    <!-- Start Coding here -->
+  <body class="font-['Rubik'] m-0 p-0">
+    <!-- section header / bright -->
+    <header class="w-screen sm:h-screen h-screen ">
+
+      <!-- detail -->
+        <div>
+          <div>
+            <nav
+              class="border-b-2 p-3 w-screen flex flex-row justify-between items-center sm:w-screen sm:h-1/4- sm:flex sm:flex-row sm:justify-between"
+            >
+              <!--branding-and-tab-bar-->
+              <div
+                class="w-2/4 h-3/4 sm:w-2/4 sm:h-4/5 sm:flex sm:items-center sm:ml-[4%]"
+              >
+                <!--braning-->
+                <a href="index.html"
+                  ><img class="w-[80%] ml-5 sm:ml-20"  src="img-bright\3.png" />
+                </a>
+              </div>
+              <div class="flex text-5xl pr-3 text-blue-950 sm:hidden sm:block">
+                <p>☰</p>
+              </div>
+
+              <div
+                class="hidden sm:w-[100%] sm:flex sm:justify-center sm:text-blue-900 sm:ml-64 "
+              >
+                <!--tab-bar-->
+                <div class="w-[100%]">
+                  <a class="mr-[7%] ml-[5%]" href="index.html">Home</a>
+                  <a class="mr-[7%]" href="">Category</a>
+                  <a class="mr-[7%]" href="">Service</a>
+                  <a class="mr-[7%]" href="">Blog</a>
+                  <a class="mr-[6%]" href="">Contract</a>
+                  <button class="bg-yellow-300 w-40 h-14 rounded-lg">
+                    <a href="">Create Account</a>
+                  </button>
+                </div>
+              </div>
+            </nav>
+            <!-- detail -->
+            <div
+              class="w-screen h-screen flex flex-col sm:w-screen sm:h-screen sm:flex sm:flex-row "
+            >
+              <div>
+                <div class="w-3/4 ml-[10%] mt-[10%] sm:ml-[20%]">
+                  <h2 class="text-blue-300 font-bold text-xl mb-5 flex items-end">
+                    CREATIVE AGENCY 
+                    <div class="w-9 sm:w-10 h-1 bg-blue-300 flex "></div>
+                  </h2>
+                  <div>
+                    <h1 class="text-blue-900 font-medium text-5xl flex">
+                      We are here to give the best service
+                    </h1>
+                  </div>
+                  <p
+                    class="max-h-fit max-w-full mt-10 mb-10 sm:block sm:mt-10 sm:mb-10 sm:text-balance sm:text-gray-500 sm:text-start"
+                  >
+                    It's crafted with the last trend of design & coded with all
+                    modern approaches. It's arobust & muti-dimensinal useble
+                    template
+                  </p>
+                  <div
+                    class="flex justify-start flex-row mb-8 sm:mb-0 sm:flex sm:flex-row sm:justify-start"
+                  >
+                    <button
+                      class="bg-blue-500 w-[50%] h-14 rounded-lg font-bold text-white mr-10 sm:w-[22%]"
+                    >
+                      <a href=""> Get Started</a>
+                    </button>
+                    <button class="flex flex-row items-center">
+                      <img
+                        class="w-8 h-8 mr-3 text-blue-500"
+                        src="img-bright\1.png"
+                        alt="watch Video"
+                      />
+                      <span class="text-blue-800 font-bold max-h-30 max-w-30">Watch Video</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="flex justify-center items-center sm:w-1/2 sm:flex">
+                <img class="h-4/5 w-4/5" src="img-bright\2.png" />
+              </div>
+            </div>
+            </div>
+          </div>
+          
+        </div>
+    </header>
+    <!-- section service / pong -->
+    <section class="w-screen flex justify-center items-center mt-80 sm:mt-0">
+      <div class="relative">
+        <img class="absolute left-[1340px] top-[210px]" src="dots2.png" />
+        <img class="absolute left-[1378px] top-[272px]" src="dots.png" />
+        <div
+          class="flex flex-col items-start gap-4 sm:gap-14 max-w-[1414px] sm:h-[447px] sm:m-12"
+        >
+          <div class="relative">
+            <h1
+              class="text-[36px] w-[264px] h-[86px] sm:text-[48px] sm:w-[352px] ml-14 sm:mt-0 mt-8"
+            >
+              Lets Check Our Services
+            </h1>
+            <div
+              class="absolute sm:left-[260px] sm:top-[117px] left-[210px] w-[68px] max-[460px]:hidden duration-200 max-[640px]:duration-200 max-[640px]:w-[36px] h-[6px] rounded-md bg-blue-500"
+            ></div>
+          </div>
+          <div
+            class="flex flex-col sm:flex-row mr-28 gap-10 sm:gap-0 mt-8 mx-6 sm:mx-0"
+          >
+            <div class="ml-7 p-8 w-[300px] hover:bg-red-200 hover:rounded-xl">
+              <img class="" src="Group 34.png" />
+              <h1 class="text-[#0B0757] text-[20px] font-medium py-3">
+                Increase conversion
+              </h1>
+              <h3 class="text-[#8480AE] text-[16px]">
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </h3>
+            </div>
+            <div class="ml-7 p-8 w-[300px] hover:bg-blue-200 hover:rounded-xl">
+              <img class="" src="Group 36.png" />
+              <h1 class="text-[#0B0757] text-[20px] font-medium py-3">
+                Discussion for idea
+              </h1>
+              <h3 class="text-[#8480AE] text-[16px]">
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </h3>
+            </div>
+            <div class="ml-7 p-8 w-[300px] hover:bg-green-200 hover:rounded-xl">
+              <img class="" src="Group 37.png" />
+              <h1 class="text-[#0B0757] text-[20px] font-medium py-3">
+                Product analytics
+              </h1>
+              <h3 class="text-[#8480AE] text-[16px]">
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </h3>
+            </div>
+            <div
+              class="ml-7 p-8 w-[300px] hover:bg-purple-200 hover:rounded-xl"
+            >
+              <img class="" src="Group 38.png" />
+              <h1 class="text-[#0B0757] text-[20px] font-medium py-3">
+                Perfect testing
+              </h1>
+              <h3 class="text-[#8480AE] text-[16px]">
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section work / natsu -->
+    <div class="w-screen flex justify-center items-center">
+      <div
+        class="max-w-[1440px] max-h-[971px] relative px-7 pt-52 lg:flex lg:flex-row-reverse"
+      >
+        <img
+          class="h-[95vh] absolute inset-0 -z-10 sm:h-[75vh] sm:w-[90vw] left-0 lg:left-[170px] sm:top-16 xl:h-[95vh] xl:top-36 xl:w-[88vw]"
+          src="./img section3/bg.png"
+          alt="background"
+        />
+        <!-- box-content -->
+        <div
+          class="message sm:w-[45vw] sm:relative sm:top-40 xl:relative xl:top-[420px] xl:right-16 xl:w-[42vw] xl:h-[50vh]"
+        >
+          <div>
+            <h1 class="text-[#0B0757] text-4xl font-semibold">
+              We Take The Work
+            </h1>
+          </div>
+          <div class="flex flex-row items-end gap-2 mb-8">
+            <div>
+              <h1 class="text-[#0B0757] text-4xl font-semibold">
+                Of Your Hand
+              </h1>
+            </div>
+            <img class="h-1" src="./img section3/blueline.png" alt="blueline" />
+          </div>
+          <div>
+            <p class="text-[#8480AE] text-sm mb-8">
+              It's crafted with the latest trend of design & coded with all
+              modern approaches. It's a robust & multi-dimensional usable.
+              Nostrum placeat hic, praesent atque ornare minim.
+            </p>
+            <p class="text-[#8480AE] text-sm mb-8">
+              nihil suscipit aliquet excepteur bibendum cumque facilis senectus
+              habitant aliquid cupidatat! Fugit? Nisl dignissimos ratione
+            </p>
+          </div>
+          <div class="button">
+            <button
+              class="bg-[#1374F6] p-4 rounded-lg w-[45vw] lg:w-[15vw] xl:w-[10vw]"
+            >
+              <p class="text-white">Discover More</p>
+            </button>
+          </div>
+        </div>
+        <!-- box-picture -->
+        <div
+          class="box-img flex flex-col justify-center items-center mt-14 lg:w-[60vw] xl:relative xl:top-36"
+        >
+          <img
+            class="w-[65vw] z-10 lg:w-[40vw] lg:relative lg:left-0 lg:bottom-48 xl:w-[36vw] xl:bottom-44"
+            src="./img section3/meeting.png"
+            alt="meeting"
+          />
+          <img
+            class="w-[20vw] z-20 relative bottom-32 right-28 md:bottom-56 md:right-60 lg:w-[13vw] lg:right-48 lg:bottom-[400px] xl:w-[10vw] xl:right-64 xl:bottom-[400px]"
+            src="./img section3/order.png"
+            alt="order"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- section Price Plan / Spy -->
+    <section class="w-screen h-[1000px]">
+      <div class="w-full h-full flex flex-col">
+        <div
+          class="h-1/4 flex flex-col justify-center items-center font-bold text-3xl text-[#0B0757]"
+        >
+          <p class="text-[#8480AE] sm:text-[24px] text-[20px] font-normal">
+            Price Plan
+          </p>
+          <h1 class="text-center sm:text[48px] text-[36px]">
+            No Extra<br class="sm:hidden block" />
+            Charges!Choose
+          </h1>
+          <h1 class="sm:text[48px] text-[36px]">Your Plan.</h1>
+        </div>
+        <div
+          class="flex flex-col sm:items-center sm-pl-[0px] items-start pl-[20px] border-[#ECEBF2] text-[#8480AE]"
+        >
+          <ul class="flex border-[2px]">
+            <li class="sm:w-[300px] sm:h-[150px] w-[150px] h-[150px]"></li>
+            <li
+              class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#FDC46E] border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]"
+            >
+              $2000<br />
+              <p class="text-[#8480AE] sm:text-[20px] text-[16px]">Regular</p>
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#00B894] border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]"
+            >
+              $3000<br />
+              <p class="text-[#8480AE] sm:text-[20px] text-[16px]">Premium</p>
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[150px] w-[160px] h-[150px] text-[#1374F6] border-l-[2px] flex flex-col justify-center items-center sm:text-[36px] text-[24px]"
+            >
+              $5000<br />
+              <p class="text-[#8480AE] sm:text-[20px] text-[16px]">Corporate</p>
+            </li>
+          </ul>
+          <ul class="flex border-x-[2px] border-b-[2px]">
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start items-center sm:text-[20px] text-[14px] pl-[25px]"
+            >
+              Full Access
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+          </ul>
+          <ul class="flex border-x-[2px] border-b-[2px]">
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start items-center sm:text-[20px] text-[14px] pl-[25px]"
+            >
+              Mutiple User
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+          </ul>
+          <ul class="flex border-x-[2px] border-b-[2px]">
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start items-center sm:text-[20px] text-[14px] pl-[25px]"
+            >
+              Refund
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240679734972417/image.png?ex=663aedac&is=66399c2c&hm=2839f0e16d96f0f584e06fbf5f2e0d20b367e6eb8d6b727cce51d3801b6d68bd&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+          </ul>
+          <ul class="flex border-x-[2px] border-b-[2px]">
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[150px] h-[60px] flex justify-start items-center sm:text-[20px] text-[14px] pl-[25px]"
+            >
+              24/7 Support
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[60px] w-[160px] h-[60px] flex justify-center items-center border-l-[2px]"
+            >
+              <img
+                class="w-[15px]"
+                src="https://media.discordapp.net/attachments/1235784016779542559/1237240746718007367/image.png?ex=663aedbc&is=66399c3c&hm=e6be2143ddbdb7457848351611eff0b06c74bf1908ed22d2eb3621b7311f52aa&=&format=webp&quality=lossless"
+              />
+            </li>
+          </ul>
+          <ul class="flex justify-center items-center sm:border-r-[2px]">
+            <li class="sm:w-[300px] sm:h-[120px] w-[150px] h-[120px]"></li>
+            <li
+              class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"
+            >
+              <button
+                class="bg-[#FDC46E] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]"
+              >
+                Choose Plan</button
+              ><br />
+              <p class="sm:text-[#8480AE] text-[14px] sm:block hidden">
+                Get your 30 days free trial
+              </p>
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"
+            >
+              <button
+                class="bg-[#00B894] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]"
+              >
+                Choose Plan</button
+              ><br />
+              <p class="sm:text-[#8480AE] text-[14px] sm:block hidden">
+                Get your 30 days free trial
+              </p>
+            </li>
+            <li
+              class="sm:w-[300px] sm:h-[120px] w-[160px] h-[120px] flex flex-col justify-center items-center sm:border-l-[2px] sm:border-b-[2px] sm:border-[#ECEBF2] sm:pt-[10px] sm:pb-[0px] pb-[10px]"
+            >
+              <button
+                class="bg-[#1374F6] sm:w-[120px] sm:h-[48px] w-[85px] h-[45px] rounded-md text-white sm:text-[14px] text-[12px]"
+              >
+                Choose Plan</button
+              ><br />
+              <p class="sm:text-[#8480AE] text-[14px] sm:block hidden">
+                Get your 30 days free trial
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- section review / Dear -->
+    <section class="w-screen flex flex-row justify-center py-10">
+      <div
+        class="my-10 max-w-[1110px] w-full flex flex-col justify-center sm:flex-row sm:justify-start sm:items-center sm:gap-8"
+      >
+        <div class="relative">
+          <img
+            class="pl-6 sm:pl-0 pr-12"
+            src="./images/Rectangle 8.png"
+            alt=""
+          />
+          <div
+            class="absolute bottom-28 sm:bottom-28 left-1 sm:-left-10 w-[76px] h-[76px] bg-[#64D5FD] rounded-xl flex justify-center items-center"
+          >
+            <i class="fa-solid fa-thumbs-up text-white text-5xl"></i>
+          </div>
+        </div>
+        <div class="p-6">
+          <div>
+            <img src="./images/quote (1) 1.png" alt="auote" />
+          </div>
+          <p
+            class="text-[#8480AE] max-w-[600px] pt-3 pb-6 pr-4 text-xs leading-6 sm:leading-10 sm:py-8 sm:pr-4 sm:text-[24px] italic"
+          >
+            It’s awesome service. Land from day very fill that midst stars one
+            dominion. Itself was let that divided itself god don't subdue
+            wherein let behold over he whose of sea moved called.
+          </p>
+          <div class="flex flex-col items-center sm:items-start">
+            <div class="flex flex-col gap-2">
+              <h1 class="text-[#FDC46E] text-[20px] sm:text-[24px] font-bold">
+                Jack Smith
+              </h1>
+              <p class="text-[#8480AE] text-[14px] sm:text[16px]">
+                CEO of DIAND
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section signup / Dear -->
+    <section class="w-screen flex flex-row justify-center mb-10 sm:mb-20">
+      <div
+        class="max-w-[1110px] h-[325px] sm:h-[349px] w-full bg-[#F4F7FC] flex flex-row justify-center"
+      >
+        <div
+          class="min-w-[375px] max-w-[480px] flex flex-col justify-center text-center"
+        >
+          <!-- <div class=""> -->
+          <h1 class="text-[36px] leading-10 font-bold">
+            Sign up to our newsletter
+          </h1>
+          <p class="text-[#8480AE] text-[16px] sm:text-[20px] p-6">
+            Receive latest news, updates and many other news every week.
+          </p>
+          <!-- </div> -->
+          <div class="relative mx-10 sm:mx-0 sm:mb-5">
+            <input
+              class="p-6 rounded-full w-full placeholder:text-[#0B0757] placeholder:text-opacity-20 outline-none hover:bg-blue-200 focus:ring-8"
+              type="email"
+              placeholder="Enter your email address"
+            />
+            <div
+              class="absolute top-3 right-3 w-[46px] h-[46px] bg-[#1374F6] hover:bg-blue-200 active:bg-blue-800 rounded-full flex justify-center items-center"
+            >
+              <i class="fa-solid fa-angle-right text-xl text-white"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section footer / Dear -->
+    <footer class="w-screen flex justify-center">
+      <div class="w-[1121px] flex flex-col justify-center justify-items-center">
+        <div
+          class="sm:mb-10 flex flex-col sm:flex-row sm:justify-start sm:gap-24"
+        >
+          <div class="mx-3 sm:mx-0">
+            <img class="" src="./images/Group 5744.png" alt="logo" />
+            <p
+              class="w-[343px] h-[90px] text-[14px] sm:w-[350px] sm:text-[16px] mt-5 text-[#8480AE] leading-8"
+            >
+              Winged moving moveth created for shall and a divide the their days
+              male midst shall hath doesn't won't for. Midst life.Over a great
+              night.
+            </p>
+            <div class="flex gap-3 py-10 sm:py-5">
+              <div
+                class="w-8 h-8 rounded-full bg-[#DCEAFE] flex justify-center items-center"
+              >
+                <i
+                  class="fa-brands fa-facebook-f text-[#1374f6] text-[16px]"
+                ></i>
+              </div>
+              <div
+                class="w-8 h-8 rounded-full bg-[#DCEAFE] flex justify-center items-center"
+              >
+                <i class="fa-brands fa-twitter text-[#1374f6] text-[16px]"></i>
+              </div>
+              <div
+                class="w-8 h-8 rounded-full bg-[#DCEAFE] flex justify-center items-center"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in text-[#1374f6] text-[16px]"
+                ></i>
+              </div>
+              <div
+                class="w-8 h-8 rounded-full bg-[#DCEAFE] flex justify-center items-center"
+              >
+                <i class="fa-brands fa-youtube text-[#1374f6] text-[16px]"></i>
+              </div>
+            </div>
+          </div>
+          <!-- features dropdown -->
+          <div
+            class="p-4 flex flex-row justify-between sm:flex-col sm:justify-start sm:gap-6 border-b-2 border-zinc-200 sm:border-none"
+          >
+            <h4 class="font-[500] text-[20px]">Features</h4>
+            <i class="fa-solid fa-sort-down mr-8 sm:hidden"></i>
+            <div class="hidden sm:flex sm:flex-col sm:gap-3 text-[#8480AE]">
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Analytic</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Activity</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Influencer</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Publishing</a
+              >
+            </div>
+          </div>
+          <div
+            class="p-4 flex flex-row justify-between sm:flex-col sm:justify-start sm:gap-6 border-b-2 border-zinc-200 sm:border-none"
+          >
+            <h4 class="font-[500] text-[20px]">About</h4>
+            <i class="fa-solid fa-sort-down mr-8 sm:hidden"></i>
+            <div class="hidden sm:flex sm:flex-col sm:gap-3 text-[#8480AE]">
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Blog</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Pricing</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Company</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Careers</a
+              >
+            </div>
+          </div>
+          <div
+            class="p-4 flex flex-row justify-between sm:flex-col sm:justify-start sm:gap-6"
+          >
+            <h4 class="font-[500] text-[20px]">Resources</h4>
+            <i class="fa-solid fa-sort-down mr-8 sm:hidden"></i>
+            <div class="hidden sm:flex sm:flex-col sm:gap-3 text-[#8480AE]">
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Application Security</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Software Policy</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Supply Chain</a
+              >
+              <a class="hover:text-violet-400 active:text-violet-700" href="#"
+                >Manage Reputation</a
+              >
+            </div>
+          </div>
+        </div>
+        <p
+          class="text-[#8480AE] sm:text-[#0B0757] sm:text-opacity-20 text-center py-6 border-t-2 border-zinc-200"
+        >
+          Copyright &copy2020 Agencio
+          <span class="hidden sm:inline">All Rights Reserved</span>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
