@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Section3 html css mini project</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,67 +14,85 @@
     />
   </head>
   <body>
-    <div class="w-screen">
+    <!-- out box -->
+    <section class="font-['rubik'] relative max-w-[2560px]">
+      <!-- pic-background -->
+      <img
+        class="absolute w-full h-[1031px] min-w-[375px] -z-10 xl:w-full xl:left-[180px] xl:top-[90px]"
+        src="./img section3/bg.png"
+        alt="background"
+      />
+      <!-- box-pic and box-text -->
       <div
-        class="font-['rubik'] max-w-[1440px] max-h-[971px] relative px-7 pt-52 lg:flex lg:flex-row-reverse"
+        class="absolute z-10 mx-4 top-[220px] md:mx-10 xl:flex xl:flex-row-reverse xl:m-0 xl:left-0 xl:justify-end xl:pl-[180px]"
       >
-        <img
-          class="h-[95vh] absolute inset-0 -z-10 lg:h-[75vh] lg:w-[90vw] left-0 lg:left-auto lg:top-16 xl:h-[95vh] xl:top-36 xl:w-[88vw]"
-          src="./img section3/bg.png"
-          alt="background"
-        />
-        <!-- box-content -->
-        <div
-          class="message lg:w-[45vw] lg:relative lg:top-40 xl:relative xl:top-[420px] xl:right-16 xl:w-[42vw] xl:h-[50vh]"
-        >
+        <!-- box-text -->
+        <div class="text xl:w-[50%] xl:pl-[100px] xl:relative xl:top-[150px]">
           <div>
-            <h1 class="text-[#0B0757] text-4xl font-semibold">
+            <h1 class="text-[#0B0757] text-[36px] font-semibold md:text-[60px]">
               We Take The Work
             </h1>
           </div>
-          <div class="flex flex-row items-end gap-2 mb-8">
+          <div class="flex items-end gap-3 mb-8">
             <div>
-              <h1 class="text-[#0B0757] text-4xl font-semibold">
+              <h1
+                class="text-[#0B0757] text-[36px] font-semibold md:text-[60px]"
+              >
                 Of Your Hand
               </h1>
             </div>
-            <img class="h-1" src="./img section3/blueline.png" alt="blueline" />
+            <div class="pb-[15px]">
+              <img
+                class="h-1 md:h-2"
+                src="./img section3/blueline.png"
+                alt="blueline"
+              />
+            </div>
           </div>
           <div>
-            <p class="text-[#8480AE] text-sm mb-8">
+            <p
+              class="text-[#8480AE] text-[14px] font-normal mb-8 md:text-[18px]"
+            >
               It's crafted with the latest trend of design & coded with all
               modern approaches. It's a robust & multi-dimensional usable.
               Nostrum placeat hic, praesent atque ornare minim.
             </p>
-            <p class="text-[#8480AE] text-sm mb-8">
+          </div>
+          <div>
+            <p
+              class="text-[#8480AE] text-[14px] font-normal mb-8 md:text-[18px]"
+            >
               nihil suscipit aliquet excepteur bibendum cumque facilis senectus
               habitant aliquid cupidatat! Fugit? Nisl dignissimos ratione
             </p>
           </div>
-          <div class="button">
-            <button
-              class="bg-[#1374F6] p-4 rounded-lg w-[45vw] lg:w-[15vw] xl:w-[10vw]"
-            >
-              <p class="text-white">Discover More</p>
-            </button>
-          </div>
+          <button class="bg-[#1374F6] w-[160px] h-[60px] rounded-md">
+            <p class="text-[white] text-base font-medium md:text-[20px]">
+              Discover More
+            </p>
+          </button>
         </div>
-        <!-- box-picture -->
+        <!-- box-pic -->
         <div
-          class="box-img flex flex-col justify-center items-center mt-14 lg:w-[60vw] xl:relative xl:top-36"
+          class="pic flex flex-col justify-center items-center mx-auto mt-[60px] relative w-[340px] md:w-[600px] md:mb-10 xl:w-[32%] xl:left-[0px] xl:m-0 xl:top-[-20px]"
         >
           <img
-            class="w-[65vw] z-10 lg:w-[40vw] lg:relative lg:left-0 lg:bottom-48 xl:w-[36vw] xl:bottom-44"
+            class="w-[250px] h-[313px] md:w-[500px] md:h-[600px] xl:w-[520px] xl:h-[680px] xl:absolute xl:left-[0px]"
             src="./img section3/meeting.png"
             alt="meeting"
           />
-          <img
-            class="w-[20vw] z-20 relative bottom-32 right-28 md:bottom-56 md:right-60 lg:w-[13vw] lg:right-48 lg:bottom-[400px] xl:w-[10vw] xl:right-64 xl:bottom-[400px]"
-            src="./img section3/order.png"
-            alt="order"
-          />
+          <div
+            class="absolute left-0 top-[200px] md:top-[355px] xl:absolute xl:left-[-80px] xl:top-[300px]"
+          >
+            <img
+              class="oreder w-[88px] h-[93px] md:w-[200px] md:h-[205px]"
+              src="./img section3/order.png"
+              alt="order"
+            />
+          </div>
         </div>
+        <!--  -->
       </div>
-    </div>
+    </section>
   </body>
 </html>
